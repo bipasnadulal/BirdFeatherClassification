@@ -30,9 +30,18 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 
 ---
 ### Tech Stack
-
-- **Language**: Python
-- **Libraries**: TensorFlow, Keras, NumPy, OpenCV, Albumentations, Matplotlib, Gradio
-- **Other Tools**: DuckDuckGo Image Search API (for dataset collection)
+- **Programming Language**: Python
+- **Frameworks/Libraries**: TensorFlow, Keras, Albumentations, Gradio
+- **Dataset Management**: NumPy, OpenCV
+- **Training & Evaluation Tools**: Confusion Matrix, Classification Report
+---
+ ### Model Architecture
+- Input size: 128 × 128 × 3 (RGB images)
+- 4 Convolutional blocks with ReLU, BatchNorm, and MaxPooling
+- Flatten layer to convert feature maps
+- Dense layers: 512 → Dropout → 256 → Dropout
+- Output layer: Softmax (12 classes)
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
 
 ---
