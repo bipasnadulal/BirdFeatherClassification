@@ -29,3 +29,10 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 - Confusion matrix and classification report for performance analysis
 
 ---
+### Tech Stack
+
+- **Language**: Python
+- **Libraries**: TensorFlow, Keras, NumPy, OpenCV, Albumentations, Matplotlib, Gradio
+- **Other Tools**: DuckDuckGo Image Search API (for dataset collection)
+
+---
