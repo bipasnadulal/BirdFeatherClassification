@@ -55,6 +55,24 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 
 ---
 
+### Testing Flow
+- Load and resize image to 128x128
+- Normalize pixel values between 0 and 1
+- Expand image dimensions to match input shape
+- Feed image to trained model
+- Output top predicted class with confidence score
+---
+### Results Visualization
+- Confusion Matrix
+![Confusion Matrix](https://i.imgur.com/KVEZpZ5.png)
+
+- Accuracy & Loss Graphs
+- ![Accuracy and Loss Graphs](https://i.imgur.com/fzhioq3.png)
+
+- Classification Report (per class)
+![Classification Report](https://i.imgur.com/Rue97M4.png)
+---
+
 ### User Interface Preview
 - Feather Prediction UI
 ![Feather Prediction UI](https://i.imgur.com/c05PiGG.png)
