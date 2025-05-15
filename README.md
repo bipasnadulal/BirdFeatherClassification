@@ -18,3 +18,14 @@ The goal of this project is to identify the color of bird feathers from images u
 - Multicolor
 
 Users can upload an image via a simple Gradio interface and receive a prediction in real-time.
+---
+### Features
+
+- 🔍 Real-time prediction of feather colors
+- 🧠 Custom CNN architecture trained from scratch
+- 🖼️ User-friendly Gradio interface
+- ⚙️ Image preprocessing: resizing, normalization, augmentation
+- 📊 Model accuracy: **99.5%**
+- 📈 Confusion matrix and classification report for performance analysis
+
+---
