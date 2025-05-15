@@ -46,4 +46,4 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 
 ---
 ### User Interface Preview
-![Feather Prediction UI](https://i.imgur.com/lkVg6mO.png)
+![Feather Prediction UI](https://i.imgur.com/c05PiGG.png)
