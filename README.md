@@ -21,11 +21,11 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 ---
 ### Features
 
-- 🔍 Real-time prediction of feather colors
-- 🧠 Custom CNN architecture trained from scratch
-- 🖼️ User-friendly Gradio interface
-- ⚙️ Image preprocessing: resizing, normalization, augmentation
-- 📊 Model accuracy: **99.5%**
-- 📈 Confusion matrix and classification report for performance analysis
+- Real-time prediction of feather colors
+- Custom CNN architecture trained from scratch
+- User-friendly Gradio interface
+- Image preprocessing: resizing, normalization, augmentation
+- Model accuracy: **99.5%**
+- Confusion matrix and classification report for performance analysis
 
 ---
