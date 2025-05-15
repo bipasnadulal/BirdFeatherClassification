@@ -46,3 +46,4 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 
 ---
 ### User Interface Preview
+![Cover Image](https://imgur.com/a/m04awGp)
