@@ -64,13 +64,13 @@ Users can upload an image via a simple Gradio interface and receive a prediction
 ---
 ### Results Visualization
 - Confusion Matrix
-![Confusion Matrix](https://i.imgur.com/KVEZpZ5.png)
+  ![Confusion Matrix](https://i.imgur.com/KVEZpZ5.png)
 
 - Accuracy & Loss Graphs
-- ![Accuracy and Loss Graphs](https://i.imgur.com/fzhioq3.png)
+  ![Accuracy and Loss Graphs](https://i.imgur.com/fzhioq3.png)
 
 - Classification Report (per class)
-![Classification Report](https://i.imgur.com/Rue97M4.png)
+  ![Classification Report](https://i.imgur.com/Rue97M4.png)
 ---
 
 ### User Interface Preview
