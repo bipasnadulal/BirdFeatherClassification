@@ -4,7 +4,7 @@ import numpy as np
 from io import BytesIO
 from model_loader import load_model, predict_feather_color
 
-# Load model once
+# Load model 
 model = load_model()
 
 def predict_image(image):
@@ -12,8 +12,7 @@ def predict_image(image):
     img_byte_arr = BytesIO()
     image.save(img_byte_arr, format='PNG')
     img_byte_arr.seek(0)
-
-    # Predict
+    
     predicted_color = predict_feather_color(img_byte_arr, model)
 
     return image, f"Predicted Feather Color: {predicted_color}"
