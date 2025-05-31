@@ -22,13 +22,12 @@ def predict_feather_color(file, model):
     img_array = tf.keras.preprocessing.image.img_to_array(img) / 255.0  # Normalize the image
     img_array = np.expand_dims(img_array, axis=0)
 
-    # Get the model's predictions
+    # model's predictions
     predictions = model.predict(img_array)
     predicted_class = np.argmax(predictions, axis=1)[0]
 
-    #class names
     class_names = ["black feathers", "blue feathers", "brown feathers", "gray feathers", "green feathers", "iridescent feathers", "multicolor feathers", "orange feathers", "purple feathers", "red feathers", "white feathers", "yellow feathers"]
 
-    # Return the predicted feather color
+    # Return predicted feather color
     return class_names[predicted_class]
 
